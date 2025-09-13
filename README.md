@@ -40,3 +40,6 @@ python3 geotagger.py ./photos ./gpx 300
 # Apply a -120 second offset to images, with a 2 minute matching window
 python3 geotagger.py ./photos ./gpx 120 -7200
 ```
+
+<br><br>
+_written when I should have been asleep whilst travelling (with a non GPS enabled DSLR), quite janky_

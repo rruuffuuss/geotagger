@@ -7,8 +7,8 @@ import pandas as pd
 import gpx_to_df
 from fractions import Fraction
 
-time_offset = pd.Timedelta(1,'h')
-window_length = pd.Timedelta(2,'m')
+time_offset = pd.Timedelta(0,'h')
+window_length = pd.Timedelta(30,'m')
 
 #im_dir = "/mnt/c/Users/fsb23191/OneDrive - University of Strathclyde/Documents/Programming/Tagger/Images"
 #gpx_dir = "/mnt/c/Users/fsb23191/OneDrive - University of Strathclyde/Documents/Programming/Tagger/GPSData"

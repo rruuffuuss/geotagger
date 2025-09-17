@@ -150,11 +150,16 @@ if __name__ == '__main__':
         im_dir = sys.argv[1]
         gpx_dir = sys.argv[2]
 
+        print("using image directory " + im_dir)
+        print("using gpx directory " + gpx_dir)
+
         if len(sys.argv) > 3:
-            window_length = pd.Timedelta(int(sys.argv[4]),'s')
+            window_length = pd.Timedelta(int(sys.argv[3]),'s')
+            print("using window length " + sys.argv[3])
         
         if len(sys.argv) == 5:
-            time_offset = pd.Timedelta(int(sys.argv[3]),'s')
+            time_offset = pd.Timedelta(int(sys.argv[4]),'s')
+            print("using time_offset " + sys.argv[4])
         
         main() 
     except: 
